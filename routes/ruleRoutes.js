@@ -1,5 +1,5 @@
 import express from 'express';
-import { createRule, getAllRules, combineRules, evaluateRule } from '../controllers/ruleController.js';
+import { createRule, getAllRules, combineRules, evaluateRule } from '../Controllers/ruleController.js';
 
 const router = express.Router();
 
