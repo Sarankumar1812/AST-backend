@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-day-4",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Sharan",
+  "license": "ISC",
+  "description": "AST Rule Engine in backend",
+  "dependencies": {
+    "acorn": "^8.13.0",
+    "acron": "^1.0.5",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.7.2",
+    "nodemon": "^3.1.7"
+  }
+}
